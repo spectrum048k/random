@@ -1,6 +1,6 @@
 # Random Number Generator
 
-This repository contains two implementations of a cryptographically secure random number generator that creates 100 random integers between 1 and 10, with ASCII chart visualization.
+This repository contains three implementations of a cryptographically secure random number generator that creates 100 random integers between 1 and 10, with ASCII chart visualization.
 
 ## Implementations
 
@@ -15,6 +15,12 @@ This repository contains two implementations of a cryptographically secure rando
 - Professional ASCII charts with `asciichart` library
 - Modern ES6+ features and smooth curve visualization
 - [See JavaScript README](javascript/README.md)
+
+### Rust Version (`rust/`)
+- Uses `rand::rngs::OsRng` for cryptographic security
+- ASCII charts with `textplots` crate
+- Fast, safe, and modern Rust code
+- [See Rust README](rust/README.md)
 
 ## Quick Start
 
@@ -34,9 +40,16 @@ npm install
 node generate_random_numbers.js
 ```
 
+### Rust
+```bash
+cd rust
+cargo build
+cargo run
+```
+
 ## Features
 
-Both versions provide:
+All versions provide:
 - **Cryptographically secure** random number generation
 - **ASCII line chart** visualization
 - **Configurable parameters** via constants
