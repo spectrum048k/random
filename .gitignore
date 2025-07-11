@@ -205,3 +205,15 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Rust
+/rust/target/
+/rust/Cargo.lock
+
+# JavaScript/Node.js
+/javascript/node_modules/
+/javascript/package-lock.json
+
+# General Node.js
+node_modules/
+package-lock.json

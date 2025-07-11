@@ -1,0 +1,10 @@
+[package]
+name = "random_numbers"
+version = "0.1.0"
+edition = "2021"
+
+description = "Cryptographically secure random number generator with ASCII chart visualization."
+
+[dependencies]
+rand = "0.8"
+textplots = "0.8"
